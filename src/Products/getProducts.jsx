@@ -43,7 +43,7 @@ export function AllProducts() {
   const [addProduct] = useAddProductMutation();
   const [updateProduct] = useUpdateProductMutation();
   const [deleteProduct] = useDeleteProductMutation();
-  const[showAddProduct,setShowAddProduct] = useState(true);
+  const[showAddProduct,setShowAddProduct] = useState(false);
 
   
 
